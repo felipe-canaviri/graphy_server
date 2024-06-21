@@ -1,4 +1,4 @@
-FROM node:hydrogen-alpine
+FROM node:18-alpine3.20
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
